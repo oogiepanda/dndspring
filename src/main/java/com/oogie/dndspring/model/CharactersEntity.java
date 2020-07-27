@@ -17,7 +17,8 @@ public class CharactersEntity {
     private Integer charisma;
 
     @Id
-    @Column(name = "id", nullable = false)
+    @GeneratedValue
+    @Column(name = "id")
     public int getId() {
         return id;
     }
